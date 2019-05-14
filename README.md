@@ -10,7 +10,7 @@ Inspired by [This Uplabs Post](https://www.uplabs.com/posts/freebies)
 
 ## ✨ Requirements
 * Any Operating System (ie. MacOS X, Linux, Windows)
-* Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+* Any IDE with Flutter WEB installed (ie. IntelliJ, Android Studio, VSCode etc)
 * A little knowledge of Dart and Flutter
 * A brain to think 🤓🤓
 
