@@ -101,6 +101,7 @@ class Home extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       
+                      //InputField Widget from the widgets folder
                       InputField(
                         label: "Name",
                         content: "Name"
@@ -108,10 +109,13 @@ class Home extends StatelessWidget {
 
                       SizedBox(height: 20.0),
 
+                      //Gender Widget from the widgets folder
                       Gender(),
 
                       SizedBox(height: 20.0),
 
+
+                      //InputField Widget from the widgets folder
                       InputField(
                         label: "Date of birth",
                         content: "01/02/1986"
@@ -121,7 +125,7 @@ class Home extends StatelessWidget {
                       SizedBox(height: 20.0),
 
                      
-                      
+                      //InputField Widget from the widgets folder
                       InputField(
                         label: "Email",
                         content: "yo@seethat.com"
@@ -139,7 +143,7 @@ class Home extends StatelessWidget {
 
                       SizedBox(height: 20.0),
 
-
+                      //InputField Widget from the widgets folder
                       InputField(
                         label: "Customer ID",
                         content: "22223311111"
@@ -148,6 +152,7 @@ class Home extends StatelessWidget {
 
                       SizedBox(height: 40.0,),
                       
+                      //Membership Widget from the widgets folder
                       Membership(),
                       
                       SizedBox(height: 40.0,),
@@ -164,7 +169,6 @@ class Home extends StatelessWidget {
                           ),
 
                           SizedBox(width: 20.0,),
-
 
                           FlatButton(
                             color: Colors.greenAccent,
