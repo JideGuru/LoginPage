@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'package:login_page/widgets/input_field.dart';
 import 'package:login_page/widgets/membership.dart';
 import 'package:login_page/widgets/gender.dart';

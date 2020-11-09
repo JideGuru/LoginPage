@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 
 class Membership extends StatelessWidget {
   @override
@@ -8,7 +8,7 @@ class Membership extends StatelessWidget {
         return Row(
           children: <Widget>[
             Container(
-              width: 80.0,
+              width: 90.0,
               child: Text(
                 "Membership",
                 textAlign: TextAlign.left,
@@ -27,7 +27,7 @@ class Membership extends StatelessWidget {
             Container(
               width: 50.0,
               child: Text(
-                "Clasic",
+                "Classic",
                 textAlign: TextAlign.left,
               ),
             ),
