@@ -23,12 +23,12 @@ class Home extends StatelessWidget {
                   height: MediaQuery.of(context).size.height,
                   color: Colors.yellow[600],
                   child: Padding(
-                    padding: EdgeInsets.only(top: 70.0, right: 50.0, left: 50.0), 
+                    padding: EdgeInsets.only(top: 70.0, right: 50.0, left: 50.0),
                     child: Align(
                       alignment: Alignment.centerRight,
                       child: Column(
                         children: <Widget>[
-                        
+
                           Container(
                             child: CircleAvatar(
                               backgroundColor: Colors.black87,
@@ -41,11 +41,11 @@ class Home extends StatelessWidget {
 
 
                           SizedBox(height: 60.0,),
-                        
-                    
+
+
                           Container(
                             padding: EdgeInsets.only(
-                              top: 5.0, 
+                              top: 5.0,
                               bottom: 5.0
                             ),
                             child: Text(
@@ -62,7 +62,7 @@ class Home extends StatelessWidget {
 
                           Container(
                             padding: EdgeInsets.only(
-                              top: 5.0, 
+                              top: 5.0,
                               bottom: 5.0
                             ),
                             child: Text(
@@ -81,7 +81,7 @@ class Home extends StatelessWidget {
                             child: CircleAvatar(
                               backgroundColor: Colors.black87,
                               child: Text(
-                                ">", 
+                                ">",
                                 style: TextStyle(color: Colors.yellow),
                               ),
                             ),
@@ -100,7 +100,7 @@ class Home extends StatelessWidget {
                   padding: EdgeInsets.only(top: 40.0, right: 70.0, left: 70.0, bottom: 40.0),
                   child: Column(
                     children: <Widget>[
-                      
+
                       //InputField Widget from the widgets folder
                       InputField(
                         label: "Name",
@@ -124,7 +124,7 @@ class Home extends StatelessWidget {
 
                       SizedBox(height: 20.0),
 
-                     
+
                       //InputField Widget from the widgets folder
                       InputField(
                         label: "Email",
@@ -133,7 +133,7 @@ class Home extends StatelessWidget {
 
                       SizedBox(height: 20.0),
 
-                    
+
 
                       InputField(
                         label: "Mobile",
@@ -151,10 +151,10 @@ class Home extends StatelessWidget {
 
 
                       SizedBox(height: 40.0,),
-                      
+
                       //Membership Widget from the widgets folder
                       Membership(),
-                      
+
                       SizedBox(height: 40.0,),
 
                       Row(
